@@ -12,7 +12,7 @@ describe('Home', () => {
 
     fixture = TestBed.createComponent(Home);
     component = fixture.componentInstance;
-    await fixture.whenStable();
+    await fixture.whenStable() ;
   });
 
   it('should create', () => {
